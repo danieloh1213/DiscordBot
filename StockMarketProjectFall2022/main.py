@@ -7,13 +7,13 @@ import asyncio
 import pandas as pd
 from requests import JSONDecodeError
 
-TOKEN = 'MTAxMjEzMDMzMDc3NTM5NjM4NA.GQhv5i.RRYrbpK_Dkx4hMBKZ3se2cmDvT6s0OqFRY8OvE'  # Discord Bot token
+TOKEN = 'DISCORD BOT TOKEN'  # Discord Bot token
 intents = discord.Intents.default()
 intents.message_content = True  # Allows the bot to message
 intents.typing = True  # Allows the bot to type
 discord_client = discord.Client(intents=intents)
 
-key = "cc360riad3i96jb01de0"
+key = "API KEY"
 finnhub_client = finnhub.Client(api_key=key)
 
 data = {
